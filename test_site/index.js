@@ -39,7 +39,24 @@ console.log(stringn)
     obj.length -> returns the lenth of the string
     str[index] -> will return the char in the position index of the string
 */
-//functions
+
+//arrays
+//creation is same as creating any variable
+var myArray = [1, 2, 3, 4];//1D array
+var my2DArray = [[1, 2, 3], [1, 4, 6]];//2d array
+console.log(myArray[1]);//will return 2nd element
+console.log(my2DArray[1][2]);//will return last element of the 2nd row in 2d array
+myArray.push(1);//adds element to the end of the array ie it appends
+console.log(myArray)
+myArray.pop();//removes the last element
+console.log(myArray)
+myArray.shift();//removes element fron the 1st position
+console.log(myArray)
+myArray.unshift(1);//will insert elemwnt to the beginning of the array
+console.log(myArray)
+
+
+//functions-> reusable block of codes
 // makes use of keyword 'function' 
 //mad lib game
 function wordBank(noun, adj, verb, adv) {
@@ -48,11 +65,5 @@ function wordBank(noun, adj, verb, adv) {
     return res;
 }
 console.log(wordBank("Dog", "Small", "ran", "quickly"));
-//arrays
-//creation is same as creating any variable
-var myArray = [1, 2, 3, 4];//1D array
-var my2DArray = [[1, 2, 3], [1, 4, 6]];//2d array
-console.log(myArray[1]);//will return 2nd element
-console.log(my2DArray[1][2]);//will return last element of the 2nd row in 2d array
-myArray.push(1);
-console.log(myArray)
+
+ 
