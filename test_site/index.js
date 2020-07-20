@@ -48,3 +48,11 @@ function wordBank(noun, adj, verb, adv) {
     return res;
 }
 console.log(wordBank("Dog", "Small", "ran", "quickly"));
+//arrays
+//creation is same as creating any variable
+var myArray = [1, 2, 3, 4];//1D array
+var my2DArray = [[1, 2, 3], [1, 4, 6]];//2d array
+console.log(myArray[1]);//will return 2nd element
+console.log(my2DArray[1][2]);//will return last element of the 2nd row in 2d array
+myArray.push(1);
+console.log(myArray)
