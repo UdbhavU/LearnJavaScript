@@ -66,4 +66,8 @@ function wordBank(noun, adj, verb, adv) {
 }
 console.log(wordBank("Dog", "Small", "ran", "quickly"));
 
- 
+/*
+    day 2
+    concepts covered - OOP  and Few remaining basics
+*/
+// once you declare a var using respective keywords you cannot declare the same variable again
