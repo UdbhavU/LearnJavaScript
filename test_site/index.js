@@ -74,3 +74,4 @@ console.log(wordBank("Dog", "Small", "ran", "quickly"));
 //NaN is anumber type variable which stands for not a thisNumber. You usually get this when you try to use operation meant for numbers on other variable types
 //you can probably add string with other types and the result will be a string but not other operations
 //The process of type coersion is when the compiler tries to guess the probable type and type cast to
+//objects in js is basically dictionary in python , now it all makes sence ! json i mean
