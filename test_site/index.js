@@ -14,10 +14,10 @@ const varVar = 123;//value cant be change
 */
 
 myName = "Udbhav";//Changes the value of the variable
-console.log(myName);//Prints the variable 
+console.log(myName);//Prints the variable
 //operators
 /*
-    int + int = int 
+    int + int = int
     char/str + char/str =concatenated char/str
  */
 var a = 10;
@@ -29,7 +29,7 @@ console.log(a + b);
     \t
     etc
     \" -> lets quotes be part of the string [mainly used while refrencing url using href]
-    
+
     you can completly avoid those ambiguity by using back tick [`] to definne string.
 */
 var stringn = ' This is 1st line.\n' + 'this is second line.';
@@ -57,7 +57,7 @@ console.log(myArray)
 
 
 //functions-> reusable block of codes
-// makes use of keyword 'function' 
+// makes use of keyword 'function'
 //mad lib game
 function wordBank(noun, adj, verb, adv) {
     var res = ""
@@ -71,3 +71,6 @@ console.log(wordBank("Dog", "Small", "ran", "quickly"));
     concepts covered - OOP  and Few remaining basics
 */
 // once you declare a var using respective keywords you cannot declare the same variable again
+//NaN is anumber type variable which stands for not a thisNumber. You usually get this when you try to use operation meant for numbers on other variable types
+//you can probably add string with other types and the result will be a string but not other operations
+//The process of type coersion is when the compiler tries to guess the probable type and type cast to
